@@ -1,0 +1,8 @@
+#QCIR-14
+forall(x0)
+depend(y0, x0)
+depend(y1, x0)
+output(RES)
+y0_imp_y1 = or(y1, -y0)
+y1_imp_y0 = or(-y1, y0)
+RES = or(-y0_imp_y1, -y1_imp_y0)
