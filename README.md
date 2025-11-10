@@ -1,3 +1,17 @@
+# 2-DQR 
+
+This repository contains the code and benchmarks of 2DQBF -- our implementation of 2-DQBF solver.
+
+The code is based on the results published in the paper:
+
+2-DQBF Solving and Certification via Property-Directed Reachability Analysis\
+Long-Hin Fung, Che Cheng, Yu-Wei Fan, Tony Tan, Jie-Hong Roland Jiang\
+Proceedings of FMCAD 2024 (best paper award)\
+Invited and submitted to Formal Methods in System Designs
+
+
+
+
 # Building 2DQR
 - Compile [AVR](https://github.com/aman-goel/avr.git) and have the following structure.
 ```
